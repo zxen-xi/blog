@@ -1,6 +1,6 @@
 # Be sure to change these!
 base_url = "https://pawroman.github.io/zola-theme-terminimal"
-title = "Zola Terminimal theme"
+title = "zxen | blog"
 theme = "terminimal"
 
 # Sass compilation is required
@@ -41,22 +41,22 @@ logo_text = "zxen / blog"
 
 # Copyright text in HTML format. If specified,
 # entirely replaces default copyright and author.
-copyright_html = "Food"
+copyright_html = "zxen's blog, made with Zola and the wonderful Terminimal theme."
 
 # menu is enabled by adding menu_items (optional)
 menu_items = [
     # each of these is optional, name and url are required
     # $BASE_URL is going to be substituted by base_url from configuration
-    {name = "blog", url = "$BASE_URL"},
+    {name = "/blog", url = "$BASE_URL"},
 
     # tags should only be enabled if you have "tags" taxonomy
     # see documentation below for more details
-    {name = "tags", url = "$BASE_URL/tags"},
-    {name = "archive", url = "$BASE_URL/archive"},
-    {name = "about me", url = "$BASE_URL/about"},
+    {name = "/tags", url = "$BASE_URL/tags"},
+    {name = "/archive", url = "$BASE_URL/archive"},
+    {name = "/about me", url = "https://zxen-xi.github.io", newtab = true},
 
     # set newtab to true to make the link open in new tab
-    {name = "github", url = "https://github.com/pawroman/zola-theme-terminimal", newtab = true},
+    {name = ".github()", url = "https://github.com/zxen-xi", newtab = true},
 ]
 
 # Whether to show links to earlier and later (aka. higher/lower) posts
