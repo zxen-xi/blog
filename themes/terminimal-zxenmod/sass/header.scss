@@ -61,6 +61,16 @@
           margin-bottom: 10px;
           flex: 0 0 auto;
         }
+
+        a {
+          text-decoration: none !important;
+          border-bottom: solid var(--accent);
+          transition: all 0.2s;
+        }
+
+        a:hover {
+          color: var(--accent);
+        }
       }
     }
 
