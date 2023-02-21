@@ -65,11 +65,11 @@
         a {
           text-decoration: none !important;
           border-bottom: solid var(--accent);
-          transition: all 0.2s;
         }
 
         a:hover {
-          color: var(--accent);
+          background-color: var(--accent);
+          color: var(--background);
         }
       }
     }

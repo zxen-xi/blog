@@ -36,7 +36,7 @@ logo_text = "zxen / blog"
 
 # Copyright text in HTML format. If specified,
 # entirely replaces default copyright and author.
-copyright_html = "<a href=https://zxen-xi.github.io>zxen</a> | SSG: Zola | theme: terminimal (modified)"
+copyright_html = "<a href=https://zxen-xi.github.io>zxen</a>&nbsp;| SSG: Zola | theme: terminimal (modified)"
 
 # menu is enabled by adding menu_items (optional)
 menu_items = [
